@@ -1,0 +1,5 @@
+a { font-family: Verdana; text-decoration:none; color:#777; font-size:9px; display:block; padding:5px; border: 1px solid #fff;}
+a:hover { text-decoration:underline; color: red; background-color: #ccc; border: 1px solid #bbb;}
+li { padding:2px;}
+div {float:left; width: 220px; text-align:center;}
+img {border: 1px solid #ccc;}

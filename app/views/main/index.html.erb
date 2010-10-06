@@ -1,0 +1,10 @@
+<h1>Destaques</h1>
+
+<%- @legendas.each do |l| -%>
+	<div>
+		<a href="http://www.legendas.tv/info.php?d=<%= l[:id] %>&c=1" target=_blank>
+			<img src='http://www.legendas.tv/<%= l[:image] %>'/>
+			<br/><%= l[:nome] %>
+		</a>
+	</div>
+<%- end -%>
